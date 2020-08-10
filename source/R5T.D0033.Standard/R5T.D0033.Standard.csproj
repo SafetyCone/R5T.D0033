@@ -5,11 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Code\Extensions\" />
-    <Folder Include="Code\" />
-  </ItemGroup>
-
-  <ItemGroup>
+    <ProjectReference Include="..\..\..\R5T.D0032\source\R5T.D0032.Default\R5T.D0032.Default.csproj" />
     <ProjectReference Include="..\R5T.D0033.Default\R5T.D0033.Default.csproj" />
   </ItemGroup>
 
