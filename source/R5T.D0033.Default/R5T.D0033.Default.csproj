@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Code\Extensions\" />
+    <Folder Include="Code\Services\Implementations\" />
+    <Folder Include="Code\Services\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\R5T.D0033.Base\R5T.D0033.Base.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,4 @@
+R5T.D0033.Standard - Standard aggregation library for the IUserNameProvider service. NOT-async, strongly-typed.
+
+Goals
+
