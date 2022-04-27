@@ -1,13 +1,13 @@
-﻿using System;
+using System;
 
 using R5T.T0009;
 
-using IStringlyTypedUserNameProvider = R5T.D0032.IUserNameProvider;
+using IStringlyTypedUserNameProvider = R5T.D0032.IUserNameProvider;using R5T.T0064;
 
 
 namespace R5T.D0033.Default
-{
-    public class UserNameProvider : IUserNameProvider
+{[ServiceImplementationMarker]
+    public class UserNameProvider : IUserNameProvider,IServiceImplementation
     {
         private IStringlyTypedUserNameProvider StringlyTypedUserNameProvider { get; }
 
